@@ -22,10 +22,7 @@ static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true", "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"  };
 
-
-
-/* Nord Colour Schemes */
-
+/* define colour schemes */
 static char sch_norm_fg[]         = "#4C566A";
 static char sch_norm_bg[]         = "#242933";
 static char sch_norm_border[]     = "#576277";
@@ -68,21 +65,21 @@ static char *colors[][3] = {
 
 };
 
-
-
 typedef struct {
 	const char *name;
 	const void *cmd;
 } Sp;
+
 const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "120x34", NULL };
 const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "monospace:size=16", "-g", "50x20", "-e", "bc", "-lq", NULL };
+
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
 	{"spcalc",      spcmd2},
 };
 
-/* tagging */
+/* tag styles */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 static const char *tagsalt[] = { "", "", "", "", "", "", "", "", "" };
 static const int momentaryalttags = 0; /* 1 means alttags will show only when key is held down*/
@@ -118,30 +115,31 @@ static float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static int nmaster     = 1;    /* number of clients in master area */
 static int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 #define FORCE_VSPLIT 1  /* nrowgrid layout: force two clients to always split vertically */
+
 #include "vanitygaps.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "",	      tile },                        /* Default: Master on left, slaves on right */
+	{ "",            tile },                        /* Default: Master on left, slaves on right */
 	
-	{ "[BS]",	  bstack },                  /* Master on top, slaves on bottom */
+	{ "[BS]",         bstack },                  /* Master on top, slaves on bottom */
 	
-	{ "[G]", 	  gaplessgrid },             /* Equally sized grids  */
+	{ "[G]",          gaplessgrid },             /* Equally sized grids  */
 
-	{ "[Fib]",	  spiral },                  /* Fibonacci spiral */
+	{ "[Fib]",        spiral },                  /* Fibonacci spiral */
 	
 	/* { "Dwindle",	dwindle },		 Decreasing in size right and leftward */
 
-	{ "[||]",	  deck },                    /* Master on left, slaves in monocle-like mode on right */
+	{ "[||]",         deck },                    /* Master on left, slaves in monocle-like mode on right */
 	
-	{ "[M]",	  monocle },                 /* All windows on top of eachother */
+	{ "[M]",          monocle },                 /* All windows on top of eachother */
 
-	{ "[CM]",	  centeredmaster },          /* Master in middle, slaves on sides */
+	{ "[CM]",         centeredmaster },          /* Master in middle, slaves on sides */
 	
-	{ "[CFM]",	  centeredfloatingmaster },  /* Same but master floats */
+	{ "[CFM]",        centeredfloatingmaster },  /* Same but master floats */
 
-	{ "><>",	  NULL },                    /* no layout function means floating behavior */
+	{ "><>",          NULL },                    /* no layout function means floating behavior */
 	
-	{ NULL,		  NULL },
+	{ NULL,           NULL },
 };
 
 /* key definitions */
@@ -355,8 +353,6 @@ static Key keys[] = {
     { 0, XF86XK_AudioPlay,                           spawn,                  SHCMD("mpc play") },
     { 0, XF86XK_AudioStop,                           spawn,                  SHCMD("mpc stop") },
 
-	
-	
 };
 
 /* button definitions */
