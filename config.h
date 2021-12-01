@@ -20,7 +20,8 @@ static const int vertpad      = 0;       /* vertical padding of bar */
 static const int sidepad      = 0;       /* horizontal padding of bar */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true", "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"  };
+static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
+				 "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"  };
 
 /* define colour schemes */
 static char sch_norm_fg[]         = "#4C566A";
