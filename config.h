@@ -220,7 +220,7 @@ static Key keys[] = {
     { MODKEY,                       XK_b,            spawn,   	             SHCMD("brave") },
 	
     //c
-    { MODKEY,                       XK_o,            togglealwaysontop,   	 {0} },	/* Tag a floating client to remain on top */
+    { MODKEY,                       XK_o,            togglealwaysontop,      {0} },	/* Tag a floating client to remain on top */
     
     //d
     { MODKEY,                       XK_d,            spawn,   	             SHCMD("rofi -show run") },
@@ -263,7 +263,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,             XK_n,            defaultgaps,            {0} },
     
     //o
-    { MODKEY|ControlMask,           XK_c,            togglesticky,            {0} },
+    { MODKEY|ControlMask,           XK_c,            togglesticky,           {0} },
     
     //p
     { MODKEY,                       XK_p,            view,                   {0} },        /* Previous tag */
@@ -287,7 +287,6 @@ static Key keys[] = {
     { MODKEY|ControlMask,           XK_u,            spawn,                  SHCMD("pkill pipewire") },
     
     //v
-    
     
     //w
     { MODKEY,                       XK_w,            killclient,             {0} },               /* Kill client */
