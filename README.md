@@ -1,5 +1,5 @@
 # dwm - dynamic window manager
-My dwm configuration; intending to optimize my workflow to be efficient, as well as, productive.
+My personal dwm configuration; intending to optimize my workflow to be efficient and productive, on top of being aesthetically pleasing.
 
 *Heavily inspired by Luke Smith*
 
