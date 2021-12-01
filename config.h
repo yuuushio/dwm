@@ -213,7 +213,7 @@ static Key keys[] = {
     TAGKEYS(    XK_8,    7)
     TAGKEYS(    XK_9,    8)
     
-	//a
+    //a
     { MODKEY,                       XK_a,            togglealttag,   	     {0} },
     
     //b
@@ -263,7 +263,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,             XK_n,            defaultgaps,            {0} },
     
     //o
-    { MODKEY|ControlMask,           XK_c,            togglesticky,		     {0} },
+    { MODKEY|ControlMask,           XK_c,            togglesticky,            {0} },
     
     //p
     { MODKEY,                       XK_p,            view,                   {0} },        /* Previous tag */
@@ -286,13 +286,13 @@ static Key keys[] = {
     { MODKEY,                       XK_u,            spawn,                  SHCMD("pavucontrol") },
     { MODKEY|ControlMask,           XK_u,            spawn,                  SHCMD("pkill pipewire") },
     
-	//v
+    //v
     
     
     //w
     { MODKEY,                       XK_w,            killclient,             {0} },               /* Kill client */
     
-	//x
+    //x
     
     //y
     
@@ -349,7 +349,7 @@ static Key keys[] = {
     
     { 0, XF86XK_AudioMute,                           spawn,                  SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
     { 0, XF86XK_AudioRaiseVolume,                    spawn,                  SHCMD("pamixer --allow-boost -i 3; kill -44 $(pidof dwmblocks)") },
-    { 0, XF86XK_AudioLowerVolume,	                 spawn,                  SHCMD("pamixer --allow-boost -d 3; kill -44 $(pidof dwmblocks)") },
+    { 0, XF86XK_AudioLowerVolume,	             spawn,                  SHCMD("pamixer --allow-boost -d 3; kill -44 $(pidof dwmblocks)") },
     { 0, XF86XK_AudioPrev,                           spawn,                  SHCMD("mpc prev") },
     { 0, XF86XK_AudioNext,                           spawn,                  SHCMD("mpc next") },
     { 0, XF86XK_AudioPause,                          spawn,                  SHCMD("mpc pause") },
