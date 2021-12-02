@@ -12,4 +12,4 @@ My personal dwm configuration; intending to optimize my workflow to be efficient
 My build of [dwmblocks]()
 
 ## Keybinds
-Some of the keys around bound to scripts which can be found -here-.
+Some of the keys are bound to scripts which can be found -here-.
