@@ -215,8 +215,9 @@ static Key keys[] = {
 	TAGKEYS(    XK_9,    8)
 	
 	//a
-	{ MODKEY,                       XK_a,            togglealttag,   	     {0} },
-	
+	{ MODKEY | ShiftMask,                       XK_a,            togglealttag,   	     {0} },	
+	{ MODKEY,                       XK_a,            spawn,   	             SHCMD("~/.dwm/./agility.sh") },
+
 	//b
 	{ MODKEY,                       XK_b,            spawn,   	             SHCMD("brave") },
 	
