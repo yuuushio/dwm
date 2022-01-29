@@ -20,37 +20,37 @@ static const int vertpad            = 0;       /* vertical padding of bar */
 static const int sidepad            = 0;       /* horizontal padding of bar */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true", "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"  };
+static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=13:antialias=true:autohint=true", "JetBrainsMono Nerd Font:pixelsize=13:antialias=true:autohint=true"  };
 
 
 
 /* Nord Colour Schemes */
 
-static char sch_norm_fg[] = "#4C566A";
-static char sch_norm_bg[] = "#242933";
-static char sch_norm_border[] = "#576277";
+static char sch_norm_fg[] = "#575268";
+static char sch_norm_bg[] = "#1e1e2e";
+static char sch_norm_border[] = "#4c566a";
 
 static char sch_focused_fg[] = "#88C0D0";
-static char sch_focused_bg[] = "#242933";
-static char sch_focused_border[] = "#A3BE8C";
+static char sch_focused_bg[] = "#1e1e2e";
+static char sch_focused_border[] = "#c9cbff";
 
 static char sch_status_fg[] = "#88C0D0";
-static char sch_status_bg[] = "#242933";
+static char sch_status_bg[] = "#1e1e2e";
 
 static char sch_tagfocused_fg[] = "#8FBCBB";
-static char sch_tagfocused_bg[] = "#242933";
+static char sch_tagfocused_bg[] = "#1e1e2e";
 
-static char sch_tagnorm_fg[] = "#A3BE8C";
-static char sch_tagnorm_bg[] = "#242933";
+static char sch_tagnorm_fg[] = "#c9cbff";
+static char sch_tagnorm_bg[] = "#1e1e2e";
 
 static char sch_infofocused_fg[] = "#EBCB8B";
-static char sch_infofocused_bg[] = "#242933";
+static char sch_infofocused_bg[] = "#1e1e2e";
 
-static char sch_infonorm_fg[] = "#A3BE8C";
-static char sch_infonorm_bg[] = "#242933";
+static char sch_infonorm_fg[] = "#c9cbff";
+static char sch_infonorm_bg[] = "#1e1e2e";
 
-static char colour_a[] = "#A3BE8C";
-static char main_dark[] = "#242933"; // polar_a_darker
+static char colour_a[] = "#c9cbff";
+static char main_dark[] = "#1e1e2e"; // polar_a_darker
 static char dark_light[] = "#576277"; // polar_d_lighter
 
 
