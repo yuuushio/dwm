@@ -40,7 +40,7 @@ static char sch_status_bg[] = "#1e1e2e";
 static char sch_tagfocused_fg[] = "#8FBCBB";
 static char sch_tagfocused_bg[] = "#1e1e2e";
 
-static char sch_tagnorm_fg[] = "#c9cbff";
+static char sch_tagnorm_fg[] = "#F28FAD";
 static char sch_tagnorm_bg[] = "#1e1e2e";
 
 static char sch_infofocused_fg[] = "#EBCB8B";
@@ -49,7 +49,7 @@ static char sch_infofocused_bg[] = "#1e1e2e";
 static char sch_infonorm_fg[] = "#c9cbff";
 static char sch_infonorm_bg[] = "#1e1e2e";
 
-static char colour_a[] = "#c9cbff";
+static char colour_a[] = "#F5C2E7";
 static char main_dark[] = "#1e1e2e"; // polar_a_darker
 static char dark_light[] = "#576277"; // polar_d_lighter
 
@@ -123,21 +123,21 @@ static const Layout layouts[] = {
 	/* symbol     arrange function */
 	{ "",	      tile },				    /* Default: Master on left, slaves on right */
 	
-	{ "[BS]",	  bstack },			        /* Master on top, slaves on bottom */
+	{ "響",	  bstack },			        /* Master on top, slaves on bottom */
 	
-	{ "[G]", 	  gaplessgrid },		    /* Equally sized grids  */
+	{ "全", 	  gaplessgrid },		    /* Equally sized grids  */
 
-	{ "[Fib]",	  spiral },			        /* Fibonacci spiral */
+	{ "侀",	  spiral },			        /* Fibonacci spiral */
 	
 	/* { "Dwindle",	dwindle },		 Decreasing in size right and leftward */
 
-	{ "[||]",	  deck },				    /* Master on left, slaves in monocle-like mode on right */
+	{ "",	  deck },				    /* Master on left, slaves in monocle-like mode on right */
 	
 	{ "[M]",	  monocle },			    /* All windows on top of eachother */
 
-	{ "[CM]",	  centeredmaster },		    /* Master in middle, slaves on sides */
+	{ "頻",	  centeredmaster },		    /* Master in middle, slaves on sides */
 	
-	{ "[CFM]",	  centeredfloatingmaster },	/* Same but master floats */
+	{ "恵",	  centeredfloatingmaster },	/* Same but master floats */
 
 	{ "><>",	  NULL },				    /* no layout function means floating behavior */
 	
