@@ -1,12 +1,12 @@
-# dwm - dynamic window manager
-My personal dwm configuration; intending to optimize my workflow to be efficient and productive, on top of being aesthetically pleasing.
+# dwm
+My personal dwm configuration; striving to optimize my workflow to be efficient and productive.
 
 *Heavily inspired by [Luke Smith](https://github.com/LukeSmithxyz/dwm)*
 
 ## Preview
 
 ## Requirements
-- Nerd font package
+- [Nerd fonts](https://www.nerdfonts.com/) package
 
 ## Status Bar
 Base dwm bar + [dwmblocks](https://github.com/yuuushio/dwmblocks) for custom modules.
