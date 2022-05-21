@@ -27,30 +27,30 @@ static char *fonts[]          = { "JetBrainsMono Nerd Font:pixelsize=13:antialia
 /* Nord Colour Schemes */
 
 static char sch_norm_fg[] = "#575268";
-static char sch_norm_bg[] = "#1e1e2e";
+static char sch_norm_bg[] = "#1a1826";
 static char sch_norm_border[] = "#4c566a";
 
 static char sch_focused_fg[] = "#88C0D0";
-static char sch_focused_bg[] = "#1e1e2e";
-static char sch_focused_border[] = "#c9cbff";
+static char sch_focused_bg[] = "#1a1826";
+static char sch_focused_border[] = "#f28fad";
 
 static char sch_status_fg[] = "#88C0D0";
-static char sch_status_bg[] = "#1e1e2e";
+static char sch_status_bg[] = "#1a1826";
 
 static char sch_tagfocused_fg[] = "#8FBCBB";
-static char sch_tagfocused_bg[] = "#1e1e2e";
+static char sch_tagfocused_bg[] = "#1a1826";
 
-static char sch_tagnorm_fg[] = "#F28FAD";
-static char sch_tagnorm_bg[] = "#1e1e2e";
+static char sch_tagnorm_fg[] = "#f28fad";
+static char sch_tagnorm_bg[] = "#1a1826";
 
 static char sch_infofocused_fg[] = "#EBCB8B";
-static char sch_infofocused_bg[] = "#1e1e2e";
+static char sch_infofocused_bg[] = "#1a1826";
 
 static char sch_infonorm_fg[] = "#c9cbff";
-static char sch_infonorm_bg[] = "#1e1e2e";
+static char sch_infonorm_bg[] = "#1a1826";
 
-static char colour_a[] = "#F5C2E7";
-static char main_dark[] = "#1e1e2e"; // polar_a_darker
+static char colour_a[] = "#f2cdcd";
+static char main_dark[] = "#1a1826"; // polar_a_darker
 static char dark_light[] = "#576277"; // polar_d_lighter
 
 
@@ -236,7 +236,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_f,            setlayout,              {.v = &layouts[8]} },
 	
 	//g
-	{ MODKEY|ShiftMask,             XK_g,            spawn,                  SHCMD("dm-tool switch-to-greeter") },
+	{ MODKEY|ShiftMask,             XK_g,            spawn,                  SHCMD("slock") },
 	
 	//h
 	{ MODKEY,                       XK_h,            setmfact,               {.f = -0.05} },

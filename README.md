@@ -1,7 +1,7 @@
 # dwm - dynamic window manager
 My personal dwm configuration; intending to optimize my workflow to be efficient and productive, on top of being aesthetically pleasing.
 
-*Heavily inspired by [Luke Smith](https://github.com/LukeSmithxyz/dwm)*
+*Heavily inspired by [Luke's build](https://github.com/LukeSmithxyz/dwm)*
 
 ## Preview
 
@@ -9,7 +9,7 @@ My personal dwm configuration; intending to optimize my workflow to be efficient
 - Nerd font package
 
 ## Status Bar
-Base dwm bar + [dwmblocks](https://github.com/torrinfail/dwmblocks).
+My build of [dwmblocks]()
 
 ## Keybinds
-
+Some of the keys are bound to scripts which can be found -here-.
