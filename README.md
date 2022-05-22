@@ -1,5 +1,5 @@
 # dwm
-My personal dwm configuration; striving to optimize my workflow to be efficient and productive.
+My personal dwm configuration; striving to optimize my workflow so as to be more efficient and productive.
 
 *Heavily inspired by [Luke Smith](https://github.com/LukeSmithxyz/dwm)*
 
