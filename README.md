@@ -10,7 +10,7 @@ Can be found in my [dots repo](https://github.com/yuuushio/dots#preview).
 - [Nerd fonts](https://www.nerdfonts.com/) package
 
 ## Status Bar
-Base dwm bar + [dwmblocks](https://github.com/yuuushio/dwmblocks) for custom modules.
+Base dwm bar + [dwmblocks](https://github.com/yuuushio/dots/tree/main/dwmblocks) for custom modules.
 
 ## Keybinds
 
