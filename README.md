@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Succless </h1>
-  [Suckless](https://suckless.org/) good
+  <a href="https://suckless.org/">Suckless</a> good
 </div>
 <br>
 <div align="center" style="border-radius:6px;">
