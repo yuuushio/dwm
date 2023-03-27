@@ -1,6 +1,7 @@
 <div align="center">
   <h1> Succless </h1>
   <a href="https://suckless.org/">Suckless</a> good
+  
   Currently using <a href="https://github.com/FrenzyExists/aquarium-vim">Aquarium</a> scheme.
 </div>
 <br>
