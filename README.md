@@ -15,7 +15,7 @@
 ## Contents
 - dwm - fully patched [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch) with a few additional features for the looks.
 - st - patched simple terminal.
-- dwmblocks - [dwmblocks-async](https://github.com/UtkarshVerma/dwmblocks-async) by UtkarshVerma.
+- statusbar - [dwmblocks-async](https://github.com/UtkarshVerma/dwmblocks-async) by UtkarshVerma.
 
 ## Credits
 Thanks to [Luke Smith](https://github.com/LukeSmithxyz) ofc.
