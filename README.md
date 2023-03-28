@@ -10,6 +10,8 @@
     <img src="dwm_ss.png" align="center" height="450px" style="border-radius:6px;"/>
   </p>
 </div>
+
+![dwm_ss](dwm_ss.png)
 <br>
 
 ## Contents
