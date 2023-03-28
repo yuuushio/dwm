@@ -18,5 +18,5 @@
 - statusbar - [dwmblocks-async](https://github.com/UtkarshVerma/dwmblocks-async) by UtkarshVerma.
 
 ## Credits
-Thanks to [Luke Smith](https://github.com/LukeSmithxyz) ofc.
+Inspired by [Luke Smith](https://github.com/LukeSmithxyz) ofc.
 
