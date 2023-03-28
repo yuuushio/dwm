@@ -5,13 +5,9 @@
   Currently using <a href="https://github.com/FrenzyExists/aquarium-vim">Aquarium</a> scheme.
 </div>
 <br>
-<div align="center" style="border-radius:6px;">
-  <p>
-    <img src="dwm_ss.png" align="center" height="450px" style="border-radius:6px;"/>
-  </p>
-</div>
 
 ![dwm_ss](dwm_ss.png)
+
 <br>
 
 ## Contents
