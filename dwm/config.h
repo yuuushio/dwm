@@ -367,7 +367,7 @@ static Key keys[] = {
     
     
     // b
-    { MODKEY,              XK_b,                     spawn,              SHCMD("$BROWER") },
+    { MODKEY,              XK_b,                     spawn,              SHCMD("brave") },
     
     // c
     { MODKEY,              XK_c,                     spawn,              SCRIPTCMD("color_under_cursor.sh") },
