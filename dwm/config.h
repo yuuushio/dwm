@@ -363,9 +363,6 @@ static Key keys[] = {
     { MODKEY,              XK_a,                     togglegaps,         {0} },
     { MODKEY|ShiftMask,    XK_a,                     defaultgaps,        {0} },
     
-    
-    
-    
     // b
     { MODKEY,              XK_b,                     spawn,              SHCMD("brave") },
     
