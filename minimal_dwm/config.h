@@ -106,8 +106,6 @@ ResourcePref resources[] = {
 	/* { MOD, XK_z,     ACTION##stack, {.i = 2 } }, \ */
 	/* { MOD, XK_x,     ACTION##stack, {.i = -1 } }, */
 
-/* helper for spawning shell commands in the pre dwm-5.0 fashion */
-#define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
 static const char *termcmd[]  = { TERMINAL, NULL };
@@ -174,7 +172,7 @@ static const Key keys[] = {
     
     
     // f
-    { MODKEY,              XK_f,                     togglefullscr,   {0} },
+    { MODKEY,              XK_f,                     togglefullscr,      {0} },
     
     // g
     { MODKEY|ShiftMask,    XK_g,                     spawn,              SHCMD("slock; musicctl pause") },
@@ -241,7 +239,7 @@ static const Key keys[] = {
     
 
 
-	{ MODKEY,			XK_Return,	spawn,		{.v = termcmd } },
+	{ MODKEY,              XK_Return,                spawn,              {.v = termcmd } },
 
 
 	/* V is automatically bound above in STACKKEYS */
@@ -263,8 +261,8 @@ static const Key keys[] = {
     /**** Special Keys ****/
     /**********************/
 
-    { MODKEY,              XK_semicolon,             shiftview,   { .i = -1 } }, 
-    { MODKEY,              XK_apostrophe,            shiftview,   { .i = +1 } },
+    { MODKEY,              XK_semicolon,             shiftview,          { .i = -1 } }, 
+    { MODKEY,              XK_apostrophe,            shiftview,          { .i = +1 } },
 
     // - monitor
     { MODKEY,              XK_comma,                 focusmon,           {.i = -1 } },
