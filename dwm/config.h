@@ -322,7 +322,8 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 static const char *roficmd[]  = { "rofi", "-show", "run", NULL };
-static const char *termcmd[]  = { "kitty", NULL };
+static const char *termcmd[]  = { "st", NULL };
+static const char *termkitty[]  = { "kitty", NULL };
 
 /* This defines the name of the executable that handles the bar (used for signalling purposes) */
 #define STATUSBAR "dwmblocks"
@@ -335,6 +336,7 @@ static const char *termcmd[]  = { "kitty", NULL };
 #define SHCMD(cmd)       { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL                   } }
 
 #define TERMCMD(...)     { .v = (const char*[]){ "st", "-e", __VA_ARGS__, NULL                } }
+#define TERMKITTY(...)     { .v = (const char*[]){ "kitty", "-e", __VA_ARGS__, NULL                } }
 #define TERMSHCMD(cmd)   { .v = (const char*[]){ "st", "-e", "dash", "-c", cmd, NULL          } }
 
 #define REDSHIFT(arg)    { .v = (const char*[]){ "redshift", "-PO" arg, NULL                  } }
@@ -402,6 +404,7 @@ static Key keys[] = {
     { MODKEY,              XK_m,                     togglemax,          {0} },
     
     // n
+    { MODKEY,              XK_n,                spawn,              {.v = termkitty } },
 
   
     // o
@@ -467,7 +470,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,    XK_period,                tagmon,             {.i = +1 } },
     
     { MODKEY,              XK_slash,                 spawn,              SCRIPTCMD("rl_jar.sh") },
-    { MODKEY,              XK_backslash,             spawn,              SHCMD("pcmanfm") },
+    { MODKEY,              XK_backslash,             spawn,              SHCMD("nemo") },
 
     { MODKEY,              XK_Escape,                mpdcontrol,         {0} },
     { MODKEY|ShiftMask,    XK_space,                 togglefloating,     {0} }, // note: probs change to return
