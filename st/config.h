@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FuraMono Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "FuraCode Nerd Font:pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = {"Noto Color Emoji:pixelsize=15:antialias=true:autohint=true"};
 
 static int borderpx = 20;
@@ -98,31 +98,32 @@ unsigned int tabspaces = 4;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    [0] = "#3b3b4d", /* hard contrast: #1d2021 / soft contrast: #32302f */
-    [1] = "#ebb9b9", /* red     */
-    [2] = "#b1dba4", /* green   */
-    [3] = "#e6dfb8", /* yellow  */
-    [4] = "#708190", /* blue    */
-    [5] = "#f6bbe7", /* magenta */
-    [6] = "#cddbf9", /* mp3/audio files */
-    [7] = "#c6d0e9", /* white   */
+    [0] = "#161821", /* hard contrast: #1d2021 / soft contrast: #32302f */
+    [1] = "#e27878", /* red     */
+    [2] = "#b4be82", /* green   */
+    [3] = "#e2a478", /* yellow  */
+    [4] = "#84a0c6", /* blue    */
+    [5] = "#a093c7", /* magenta */
+    [6] = "#89b8c2", /* mp3/audio files */
+    [7] = "#c6c8d1", /* white   */
 
     /* 8 bright colors */
-    [8]  = "#3b3b4d", /* black   */
-    [9]  = "#cc9b9d", /* zip files */
-    [10] = "#8787bf", /* executables   */
-    [11] = "#d1ba97", /* yellow  */
-    [12] = "#6a8cbc", /* folders */
-    [13] = "#7f8e9d", /* static files */
-    [14] = "#95c2d1", /* cyan    */
-    [15] = "#63718b", /* white   */
+    [8]  = "#6b7089", /* black   */
+    [9]  = "#e98989", /* zip files */
+    [10] = "#c0ca8e", /* executables   */
+    [11] = "#e9b189", /* yellow  */
+    [12] = "#91acd1", /* folders */
+    [13] = "#ada0d3", /* static files */
+    [14] = "#95c4ce", /* cyan    */
+    [15] = "#d2d4de", /* white   */
     
+
     [255] = 0,
     
-    [256] = "#a7b7d6", /* 256 -> cursor */
+    [256] = "#d2d4de", /* 256 -> cursor */
 	[257] = "#555555", /* 257 -> rev cursor*/
-	[258] = "#1a1a24", /* 258 -> bg */
-	[259] = "#63718b", /* 259 -> fg */
+	[258] = "#161821", /* 258 -> bg */
+	[259] = "#c6c8d1", /* 259 -> fg */
 
 };
 

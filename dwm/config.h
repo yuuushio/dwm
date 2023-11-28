@@ -29,7 +29,7 @@ static int floatindicatortype             = INDICATOR_NONE;
 
 static const char *fonts[] = {
         // "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true",
-        "FuraMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
+        "LiterationMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
         "Siji:pixelsize=12",
         "Noto Color Emoji:pixelsize=12",
 };
@@ -421,7 +421,9 @@ static Key keys[] = {
     {MODKEY,               XK_r,                     reorganizetags,     {0} },
     
     // s
-    {MODKEY,               XK_s,                     spawn,              SHCMD("st -e tmux new-session nnn -a -P p") },
+    {MODKEY,               XK_s,                     spawn,              SHCMD("~/Desktop/Work/python/get_text/s.sh") },
+
+
     
     
     // t

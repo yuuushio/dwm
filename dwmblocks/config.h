@@ -1,7 +1,7 @@
 #define CMDLENGTH 60
 #define DELIMITER " "
 #define CLICKABLE_BLOCKS
-#define DI "~/.dwm/dwmblocks_scripts/"
+#define DI "/home/y/.dwm/dwmblocks_scripts/riced_scripts/"
 
 /** each block needs to have a unique sig ID if you want to update them using signals **/
 const Block blocks[] = {
