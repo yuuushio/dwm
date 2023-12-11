@@ -481,8 +481,8 @@ static Key keys[] = {
     { MODKEY,              XK_space,                 zoom,               {0} },
     
     // - screenshot
-    { 0,                   XK_Print,                 spawn,              SCRIPTCMD("ss_selection.sh") },
-    { MODKEY,              XK_Print,                 spawn,              SCRIPTCMD("maimpick") },
+    { 0,                   XK_F12,                 spawn,              SCRIPTCMD("ss_selection.sh") },
+    { MODKEY,              XK_F12,                 spawn,              SCRIPTCMD("maimpick") },
     
     /*****************************************/
 
