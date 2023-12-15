@@ -366,7 +366,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,    XK_a,                     defaultgaps,        {0} },
     
     // b
-    { MODKEY,              XK_b,                     spawn,              SHCMD("brave") },
+    { MODKEY,              XK_b,                     spawn,              SHCMD("firefox") },
     
     // c
     { MODKEY,              XK_c,                     spawn,              SCRIPTCMD("color_under_cursor.sh") },
